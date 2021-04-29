@@ -1,0 +1,111 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(227, 227, 227);
+}
+
+header {
+  font-family: 'Roboto Mono', monospace;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 0px 20px;
+}
+
+#main {
+  font-family: sans-serif;
+  padding: 20px 0;
+  background-color: rgb(245, 245, 245);
+}
+
+.wrapper {
+  box-shadow: inset 0px 1px 0px 0px rgb(0 0 0 / 5%), inset 0px 2px 3px 0px rgb(0 0 0 / 10%);
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+#title {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+#img-div {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0px 20px;
+}
+
+#image {
+  display: block;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#tribute-info {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#info-title {
+  font-size: 2em;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+#tribute-info ul {
+  margin: 0 auto;
+  width: 500px;
+  text-align: left;
+}
+
+#tribute-info li {
+  margin: 20px 0;
+}
+
+
+@media (max-width: 750px) {
+  #title {
+    font-size: 2em;
+  }
+
+  #quote {
+    font-size: 0.9em;
+  }
+
+  #info-title {
+    font-size: 1.5em;
+    padding-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  #title {
+    font-size: 1.7em;
+  }
+
+  #quote {
+    font-size: 0.8em;
+  }
+
+  #info-title {
+    font-size: 1.2em;
+  }
+}
